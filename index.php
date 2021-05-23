@@ -14,7 +14,7 @@ function loadVideo(){
  let url = document.getElementById('video_id').value;
   
 
- document.getElementById('ytubeVideo').src = base_endpoint + url.split('/')[url.split('/').length-1];
+ document.getElementById('ytubeVideo').src = base_endpoint + url.split('/')[url.split('/').length-1]+"?autoplay=1";
 }
 
 </script>
