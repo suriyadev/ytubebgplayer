@@ -27,10 +27,14 @@ function loadVideo(){
 
 </head>
 <body>
+<table>
+<tr><td>
+<input type="text" id="video_id" /></td><td>
 
-<input type="text" id="video_id" />
+<button onclick="loadVideo()" class="btn btn-success btn-lg">Load</button></td></tr>
+</table>
 
-<button onclick="loadVideo()" class="btn btn-success">Load</button>
+
 
 <iframe  width="100" height="100" src="" id="ytubeVideo">
 </iframe>
