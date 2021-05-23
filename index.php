@@ -38,8 +38,8 @@ function loadVideo(){
 
 </br>
 </hr>
-<center><iframe  width="100" height="100" src="" id="ytubeVideo">
-</iframe></center>
+<iframe  width="500" height="500" src="" id="ytubeVideo">
+</iframe>
 
 
 </body>
