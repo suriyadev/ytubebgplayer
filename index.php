@@ -30,7 +30,7 @@ function loadVideo(){
 
 <input type="text" id="video_id" />
 
-<button onclick="loadVideo()">Load</button>
+<button onclick="loadVideo()" class="btn btn-default dropdown-toggle">Load</button>
 
 <iframe  width="100" height="100" src="" id="ytubeVideo">
 </iframe>
