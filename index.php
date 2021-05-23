@@ -27,7 +27,9 @@ function loadVideo(){
 
 </head>
 <body>
-<table>
+<table style="
+    margin: 112px;
+">
 <tr><td>
 <input type="text" id="video_id" /></td></tr><tr><td>
 <center><button onclick="loadVideo()" class="btn btn-success btn-lg">Load</button></center></td></tr>
