@@ -28,7 +28,7 @@ function loadVideo(){
 
 <button onclick="loadVideo()">Load</button>
 
-<iframe width="420" height="345" src="" id="ytubeVideo">
+<iframe style="display:none;" width="420" height="345" src="" id="ytubeVideo">
 </iframe>
 
 
