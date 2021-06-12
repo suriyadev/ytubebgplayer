@@ -43,7 +43,7 @@ function loadVideo(){
 
 </br>
 </hr>
-<iframe  width="500" height="500" src="" id="ytubeVideo">
+<iframe  width="500" height="500" src="<?php echo 'https://www.youtube.com/embed/' . $_GET["id"] . '?autoplay=1'; ?>" id="ytubeVideo">
 </iframe>
 
 
